@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>  
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
   <teiHeader> 
       <fileDesc>
@@ -19,8 +20,9 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader> 
-   <standOff>
-      <listPerson>
+   <text>
+      <body>
+      <listPerson> 
          <person>
             <persName>Nixon</persName>
          </person>
@@ -37,7 +39,8 @@
             <persName>Butterfield</persName>
          </person>
       </listPerson>
-   </standOff>
+      </body>
+   </text>
   <text>
       <body>
          <div type="conversation">
