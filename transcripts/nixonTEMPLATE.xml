@@ -7,7 +7,10 @@
       <fileDesc>
          
          <titleStmt>
-            <title>Converation Number <!--450-10--></title>
+            <title>Conversation Number <!--450-10--></title>
+           <editor ref="#kal">Kylie Lasky</editor>
+           <editor ref="#ebb">Dr. B</editor>
+      
          </titleStmt>
          
          <publicationStmt>
@@ -26,10 +29,12 @@
           <lb/>  DRAFT
             3</fw>
             <incident><desc>[Following unrelated conversation omitted]</desc></incident>
-           
            -->
          </sourceDesc>
       </fileDesc>
+    <revisionDesc>
+      <change when="2026-11-04" resp="#ebb">Initiate this template and changelog!</change>
+    </revisionDesc>
   </teiHeader>
   
   
@@ -71,7 +76,27 @@
        -REPLACE quotation marks with <q> elements as you go! 
        
        This way you can track how often they're reporting other people's speaking. 
+       
+       When editors provide footnotes, handle them like this:
        -->
+        
+       <!--<u who="#haldman">.sdklfasjdklf;jdsakl;gfjkdla 
+         <note resp="#OE">jfdklasjdkfljdksla;fj   
+        
+        With info found in this awesome book: <bibl><title level="m">BOOK TITLE</title><author>whoever</author><pubPlace>New York</pubPlace><publisher>Awesome Press</publisher>
+        <date when="2026">2026</date><biblScope unit="page" from="25" to="36">pp. 25-36 </biblScope>
+        </bibl>
+        </note>-->
+        
+        <!-- Example code: -->
+        <u who="#haldman">.sdklfasjdklf;jdsakl;gfjkdla 
+          <note resp="#OE">jfdklasjdkfljdksla;fj   
+            
+            With info found in this awesome book: <bibl><title level="m">BOOK TITLE</title><author>whoever</author><pubPlace>New York</pubPlace><publisher>Awesome Press</publisher>
+              <date when="2026">2026</date><biblScope unit="page" from="25" to="36">pp. 25-36 </biblScope>
+            </bibl>
+          </note>
+        </u>
           
           
     
