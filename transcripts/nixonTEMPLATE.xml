@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>  <!--rough-->
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Converation Number <!--450-10--></title>
+         </titleStmt>
+         
+         <publicationStmt>
+           <p>Describe where these came from. <ref target="https://URL/HERE/">ORIGINAL SOURCE</ref></p>
+         
+         </publicationStmt>
+         <sourceDesc>
+           <!-- FIND A WAY TO ADD A URL DIRECT TO PDF SOURCE FROM THE ORIGINAL HERE> -->
+           <recordingStmt><recording> <date when="????-??-??">Date: FULL DATE HERE</date></recording></recordingStmt>  
+           
+           <!-- SOMEHOW PUT THIS INFO FROM THE BOTTOM OF THE TRANSCRIPT IN THE SOURCEDESC -->
+             <!-- 1st Ear: LAN, <date when ="2007-06-26">June 26, 2007</date>; 2nd Ear: LAN, <date when ="2007-06-26">June 26, 2007</date>
+           1 DRAFT -->
+           
+            <!--   <fw>  1st Ear: LAN, <date when="2007-06-26">June 26, 2007</date>; 2nd Ear: LAN, <date when="2007-06-26">June 26, 2007</date>
+          <lb/>  DRAFT
+            3</fw>
+            <incident><desc>[Following unrelated conversation omitted]</desc></incident>
+           
+           -->
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  
+  
+  <text>    
+      <body>
+        <note type="head" resp="OE">
+          <!--EXAMPLE ENCODING -->
+         
+          <label type="convo">Conversation No. 450-10</label>
+       
+          <time>10:28 am - 10:49 am</time>
+          <location><placeName>Oval Office</placeName> </location>
+           <label type="participants">Participants: Richard M. Nixon, Alexander P. Butterfield, H.R. Haldeman</label>
+          
+          <p>A special thanks to <persName>Ken Hughes</persName> and <orgName>the Miller Center of Public Affairs</orgName> for alerting us to
+            this conversation and providing a draft transcript. Transcript has been edited to remove stuttering and improve readability]
+            [Previous unrelated conversation omitted]</p>
+          
+        </note>
+          <note resp="#OE" place="top"> 
+        <!--  <p> In one of the first recordings made in the Oval Office of a conversation between
+            President Nixon, Assistant to the President Alexander P. Butterfield, and Chief of Staff
+            H.R. Haldeman, Nixon notes that the purpose of the newly installed taping system was
+            that there would be a record of every conversation <q>to be put in the file</q>.</p> 
+           <p>This new system of recording meetings and phone calls was to replace the old practice of
+            having a note-taker sit in on every meeting and prepare a memorandum for the
+            president’s files. <persName>Nixon</persName> considered this former practice too distracting, and now that he
+            had the capability of surreptitiously recording every meeting, <persName>Nixon</persName> said “I’m for
+            it”…“…let’s just…forget the note taker business.” <persName>Haldeman</persName> added <q who="#haldman">“just don’t tell
+             anybody you’ve got it.”</q></p> -->
+            
+            <!--REPLACE quotation marks with <q> elements as you go!  -->
+          </note> 
+     
+     
+       <u who="#---">transcript speech. </u>
+       <!-- Example:  <u who ="#haldman"> Look at this from <persName>McCracken</persName>. Look at this stuff and, and we're getting—</u>
+       
+       -REPLACE quotation marks with <q> elements as you go! 
+       
+       This way you can track how often they're reporting other people's speaking. 
+       -->
+          
+          
+    
+      </body>
+  </text>
+</TEI>
