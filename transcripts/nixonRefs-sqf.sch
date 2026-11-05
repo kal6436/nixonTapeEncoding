@@ -11,13 +11,13 @@
              can pick a correct @xml:id from a menu. (Right-click on a value yielding an error, and look for "Quick Fix" -->
         
         <let name="nixonRefIds"
-            value="distinct-values(doc('metaInfo/nixonReference.xml')//@xml:id ! string())"/>
+            value="doc('metaInfo/nixonReference.xml')//@xml:id => distinct-values()"/>
 
         <rule context="@who | @ref | @resp" role="info">
             <!-- Keep the raw tokens (with their #) so we know exactly which piece to replace. -->
             <let name="tokens" value="tokenize(normalize-space(.), '\s+')"/>
 
-            <!-- A token is bad if it lacks the leading # OR what follows # isn't a defined id. -->
+            <!-- A token is "bad" if it lacks the leading # OR what follows # isn't a defined id. -->
             <let name="badTokens"
                 value="$tokens[not(starts-with(., '#') and substring-after(., '#') = $nixonRefIds)]"/>
 
@@ -25,6 +25,8 @@
                 In <value-of select="current() ! name()"/>, these value(s) don't match an @xml:id in the nixonReference.xml:
                 <value-of select="string-join($badTokens, ', ')"/>.
                 Each value must be a # followed by a defined @xml:id.
+                <!-- ebb: string-join() is an XPath function that "glues" values together with a punctuation mark / separator of your choice. Here we're separating
+                each "bad" token we find in an attribute value with a comma and space. -->
             </assert>
 
             <!-- ebb: Credits: I learned how to apply Schematron Quick Fixes and use-for-each 
