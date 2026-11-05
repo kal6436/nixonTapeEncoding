@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>  
 <?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
   <teiHeader> 
       <fileDesc>
@@ -44,7 +45,7 @@
   <text>
       <body>
          <div type="conversation">
-            <u who="#Nixon">Hello, hi, how are you? </u>
+            <u who="#nixon">Hello, hi, how are you? </u>
             <u who="#Kissinger">We’ve just heard from the North Vietnamese. They want to put the meeting off until
                the 21st.</u>
             <u who="#Nixon">Why do you think they want to do that? </u>
