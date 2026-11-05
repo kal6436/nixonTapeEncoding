@@ -2,9 +2,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>  
 <?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-
 <?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- ebb: Above points to the Schematron file with SQF (Schematron Quick Fix) in it. -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
   <teiHeader> 
       <fileDesc>
@@ -90,7 +90,7 @@
                the election is over, and so forth. So do it on our time. I’d like to get it done in a reasonable time.
                You’re trip’s already been announced to go to Saigon?</u>
             <u who="#Haig">No sir.</u>
-            <u who="#Nixon">That’s alright. Take your time. But I’d like to have the announcement as early as
+            <u who="#nixon">That’s alright. Take your time. But I’d like to have the announcement as early as
                possible.</u>
             <u who="#Haig">Yes, sir.</u>
             <u who="#Kissinger">So, this time we have to announce it. How do you propose [the language] [unclear]?</u>
