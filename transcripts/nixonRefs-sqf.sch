@@ -22,7 +22,7 @@
                 value="$tokens[not(starts-with(., '#') and substring-after(., '#') = $nixonRefIds)]"/>
 
             <assert test="empty($badTokens)" sqf:fix="pick-nixon-id">
-                In @<name/>, these value(s) don't match an @xml:id in nixonReference.xml:
+                In <value-of select="current() ! name()"/>, these value(s) don't match an @xml:id in the nixonReference.xml:
                 <value-of select="string-join($badTokens, ', ')"/>.
                 Each value must be a # followed by a defined @xml:id.
             </assert>
