@@ -13,7 +13,7 @@
         <let name="nixonRefIds"
             value="distinct-values(doc('metaInfo/nixonReference.xml')//@xml:id ! string())"/>
 
-        <rule context="@who | @ref | @resp" role="warning">
+        <rule context="@who | @ref | @resp" role="info">
             <!-- Keep the raw tokens (with their #) so we know exactly which piece to replace. -->
             <let name="tokens" value="tokenize(normalize-space(.), '\s+')"/>
 
