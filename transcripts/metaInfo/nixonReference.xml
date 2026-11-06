@@ -100,6 +100,38 @@
                     <occupation></occupation>
                     <persName></persName>
                 </person>
+                <person xml:id="dean">
+                    <occupation></occupation> <!-- kal: unsure, found in conv. 037-099-->
+                    <persName>John W. Dean, III</persName>
+                </person>
+                <person xml:id="ehrlichman">
+                    <occupation></occupation> <!--kal: unsure of more details, found in conv. 037-099 -->
+                    <persName></persName>
+                </person>
+                <person xml:id="colson">
+                    <occupation></occupation>
+                    <persName>Chuck Colson</persName>
+                </person>
+                <person xml:id="ervin">
+                    <occupation></occupation>
+                    <persName>Sam Ervin</persName>
+                </person>
+                <person xml:id="dodd">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="brewster">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="mollenhoff">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="hunt">
+                    <occupation></occupation>
+                    <persName>Howard Hunt</persName>
+                </person>
             </listPerson>
             <listOrg>
                 <org>
@@ -112,7 +144,12 @@
                 <org xml:id="ITT">
                     <orgName>International Telephone &amp; Telegraph (IT&amp;T) Company</orgName>
                 </org>
-
+                <org xml:id="FBI">
+                    <orgName>Federal Bureau of Investigation</orgName>
+                </org>
+                <org xml:id="ervinecomittee">
+                    <orgName>Ervin Committee</orgName>
+                </org>
 
             </listOrg>
 

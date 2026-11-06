@@ -57,7 +57,6 @@
                     mind, was that, <q who="#nixon">he just failed, the son-of-a-bitch. That’s his
                         main problem; he should have kept <persName>Allende</persName> from getting
                         in.</q></p>
-                <!--kal: need to figure out who is Allende -->
                 <label>022-006</label>
                 <time>(1.1m; 1:07)</time></note>
             <u who="#nixon">Yeah?</u>
@@ -67,7 +66,7 @@
                 >Ron</persName>, with regard to the <orgName ref="#ITT">ITT</orgName> and Chile? How
                 did you handle it? </u>
             <u who="#ziegler">The State Department dealt with that today. </u>
-            <note resp="#OE">1 In a story published on March 21, 1972, columnist Jack Anderson
+            <note resp="#OE">1 In a story published on March 21, 1972, columnist Jack Anderson <!--kal: this needs more encoding to it -->
                 referenced two confidential ITT memoranda, one of which stated that a CIA official
                 had tried unsuccessfully to get members of the Chilean military to stage an
                 “uprising,” while the other detailed a conspiracy between ITT executives to put
@@ -125,7 +124,7 @@
             <u who="#nixon">Fine. Ok.</u>
             <u who="#ziegler">Yes, sir.</u>
             <u who="#nixon">Right.</u>
-            <note resp="#OE">[End of Conversation]</note>
+            <note resp="#OE" place="bottom">[End of Conversation]</note>
         </body>
     </text>
 </TEI>
