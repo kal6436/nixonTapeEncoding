@@ -24,8 +24,8 @@
     <text>
         <body>
             <listPerson type="editors">
-                <person xml:id="kal"> 
-                <persName>Kylie Lasky</persName>
+                <person xml:id="kal">
+                    <persName>Kylie Lasky</persName>
                 </person>
                 <person xml:id="jlb">
                     <persName>Jennifer Baxter</persName>
@@ -39,16 +39,17 @@
                 <person xml:id="ebb">
                     <persName>Elisa Beshero-Bondar</persName>
                 </person>
-                
+
                 <!-- Original Editor List -->
                 <person xml:id="OE">
                     <persName>???</persName>
-                    <note resp="ebb">The original editors of the Nixon Transcripts whoever they are. Does this belong in the listOrg?</note>
+                    <note resp="ebb">The original editors of the Nixon Transcripts whoever they are.
+                        Does this belong in the listOrg?</note>
                 </person>
-                
+
             </listPerson>
-            
-           
+
+
             <listPerson type="transcripts">
                 <person xml:id="nixon">
                     <occupation>President</occupation>
@@ -58,24 +59,42 @@
                     <occupation>Assistant to the President </occupation>
                     <persName>Alexander P. Butterfield</persName>
                 </person>
-                <person xml:id="haldeman"> <!--kal: fixed the incorrect spelling here -->
+                <person xml:id="haldeman">
+                    <!--kal: fixed the incorrect spelling here -->
                     <occupation>Cheif of Staff</occupation>
                     <persName>H.R. Haldeman</persName>
                 </person>
                 <person xml:id="taylor">
-                    <occupation>Secret Service special agent in charge of
-                        the White House details for Presidents Johnson and Nixon</occupation>
+                    <occupation>Secret Service special agent in charge of the White House details
+                        for Presidents Johnson and Nixon</occupation>
                     <persName>Robert H. Taylor</persName>
                 </person>
-                <!--kal: Found a Ziegler in conv. 450-1, could use help defining them -->
-                
+                <person xml:id="ziegler">
+                    <occupation>Press Secretary</occupation>
+                    <persName>Ronald L. Ziegler</persName>
+                </person>
+                <person xml:id="operator">
+                    <occupation>Operator</occupation>
+                    <!--kal: found in 022-006 but need help defining -->
+                </person>
+                <!--kal: Found a Al Haig in 022-006 and need help defining -->
+                <!--kal: Found an Anderson in 022-006 and need help defining -->
+                <!--kal: Found a Korry in 022-006 and need help defining -->
+                <!--kal: Found a Ron in 022-006 and need help defining -->
             </listPerson>
             <listOrg>
-                <org> <!--kal: will need to figure out the xml:id="" for this org-->
+                <org>
+                    <!--kal: will need to figure out the xml:id="" for this org-->
                     <orgName>The Secret Service</orgName>
                 </org>
-                
-                
+                <org xml:id="CIA">
+                    <orgName> Central Intellgience Agency </orgName>
+                </org>
+                <org xml:id="ITT">
+                    <orgName>International Telephone &amp; Telegraph (IT&amp;T) Company</orgName>
+                </org>
+
+
             </listOrg>
 
 
