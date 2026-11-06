@@ -75,12 +75,31 @@
                 </person>
                 <person xml:id="operator">
                     <occupation>Operator</occupation>
-                    <!--kal: found in 022-006 but need help defining -->
                 </person>
-                <!--kal: Found a Al Haig in 022-006 and need help defining -->
-                <!--kal: Found an Anderson in 022-006 and need help defining -->
+                <person xml:id="anderson">
+                    <occupation></occupation> <!--kal: unsure -->
+                    <persName>Jackson Anderson</persName>
+                </person>
                 <!--kal: Found a Korry in 022-006 and need help defining -->
+                <person xml:id="korry">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <!--kal: Found an Allende in 022-006, need help defining -->
+                <person xml:id="allende">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <!--kal: Found an Al Haig in 022-006 and need help defining -->
+                <person xml:id="haig">
+                    <occupation></occupation>
+                    <persName>Al Haig</persName>
+                </person>
                 <!--kal: Found a Ron in 022-006 and need help defining -->
+                <person xml:id="ron">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
             </listPerson>
             <listOrg>
                 <org>
