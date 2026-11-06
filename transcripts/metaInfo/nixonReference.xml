@@ -39,6 +39,8 @@
                 <person xml:id="ebb">
                     <persName>Elisa Beshero-Bondar</persName>
                 </person>
+                
+                <!-- Original Editor List -->
                 <person xml:id="OE">
                     <persName>???</persName>
                     <note resp="ebb">The original editors of the Nixon Transcripts whoever they are. Does this belong in the listOrg?</note>
@@ -56,15 +58,21 @@
                     <occupation>Assistant to the President </occupation>
                     <persName>Alexander P. Butterfield</persName>
                 </person>
-                <person xml:id="haldman">
+                <person xml:id="haldeman"> <!--kal: fixed the incorrect spelling here -->
                     <occupation>Cheif of Staff</occupation>
                     <persName>H.R. Haldeman</persName>
                 </person>
+                <person xml:id="taylor">
+                    <occupation>Secret Service special agent in charge of
+                        the White House details for Presidents Johnson and Nixon</occupation>
+                    <persName>Robert H. Taylor</persName>
+                </person>
+                <!--kal: Found a Ziegler in conv. 450-1, could use help defining them -->
+                
             </listPerson>
             <listOrg>
-                <org>
-                    <orgName>Somebody's organization</orgName>
-                    <note resp="#kal">totally criminal</note>
+                <org> <!--kal: will need to figure out the xml:id="" for this org-->
+                    <orgName>The Secret Service</orgName>
                 </org>
                 
                 

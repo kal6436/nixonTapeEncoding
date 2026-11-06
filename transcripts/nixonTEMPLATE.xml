@@ -3,36 +3,31 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>  <!--rough-->
+  <teiHeader>
       <fileDesc>
          
          <titleStmt>
-            <title>Conversation Number <!--450-10--></title>
+           <title>Conversation Number <!--450-10--></title>
            <editor ref="#kal">Kylie Lasky</editor>
            <editor ref="#ebb">Dr. B</editor>
-      
          </titleStmt>
          
          <publicationStmt>
-           <p>Describe where these came from. <ref target="https://URL/HERE/">ORIGINAL SOURCE</ref></p>
-         
+           <p>PDF transcript collected from nixontapes.org <ref target="https://URL/HERE/"></ref></p>
          </publicationStmt>
          <sourceDesc>
-           <!-- FIND A WAY TO ADD A URL DIRECT TO PDF SOURCE FROM THE ORIGINAL HERE> -->
            <recordingStmt><recording> <date when="????-??-??">Date: FULL DATE HERE</date></recording></recordingStmt>  
-           
-           <!-- SOMEHOW PUT THIS INFO FROM THE BOTTOM OF THE TRANSCRIPT IN THE SOURCEDESC -->
-             <!-- 1st Ear: LAN, <date when ="2007-06-26">June 26, 2007</date>; 2nd Ear: LAN, <date when ="2007-06-26">June 26, 2007</date>
-           1 DRAFT -->
-           
-            <!--   <fw>  1st Ear: LAN, <date when="2007-06-26">June 26, 2007</date>; 2nd Ear: LAN, <date when="2007-06-26">June 26, 2007</date>
-          <lb/>  DRAFT
-            3</fw>
-            <incident><desc>[Following unrelated conversation omitted]</desc></incident>
-           -->
+           <bibl>
+             <orig><ref target="https://URL/HERE/"></ref>ORIGINAL SOURCE FILE</orig>
+            <!-- kal: Use note for any referencing of Ear by OE
+              <note resp="#OE">1st Ear: RAM, <date when="2006-12-01">December 1,
+                 2006</date></note>
+             <note resp="#OE">2nd Ear: RAM, <date when="2006-12-04">December 4, 2006</date></note>
+             <note>3rd Ear: RAM, <date when="2007-06-07">June 7, 2007</date></note>--></bibl>
          </sourceDesc>
       </fileDesc>
     <revisionDesc>
+      <change when="2026-11-06" resp="#kal">Updated header template</change>
       <change when="2026-11-04" resp="#ebb">Initiate this template and changelog!</change>
     </revisionDesc>
   </teiHeader>
