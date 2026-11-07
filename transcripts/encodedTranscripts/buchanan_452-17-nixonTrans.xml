@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <particDesc>
+           <listPerson>      
+              <person xml:id="nixon">
+                 <occupation>President</occupation>
+                 <persName>Richard M. Nixon</persName>
+              </person> 
+              
+              <person xml:id="haldman"> 
+                 <occupation>Cheif of Staff</occupation>
+                 <persName>H.R. Haldeman</persName> 
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <fw>1st Ear: RAM, December 2, 2006; 2nd Ear: LAN, July 30, 2007
+            DRAFT
+            1</fw>
+            <note place="top">Conversation No. 452-17
+               Date: <date when = "1971-02-19">February 19, 1971</date>
+            <time>Time: 1:39 pm - unknown before 2:25 pm</time>
+           <location><placeName> Location: Oval Office</placeName></location>
+           <lb/> Participants: Richard M. Nixon, H. R. “Bob” Haldeman
+         
+               <lb/>  In one of the first taped conversations, Nixon and his Chief of Staff discussed the
+            potential use of the surreptitious taping system, in this case a minor dispute within the
+            administration over the “firing” of Undersecretary of the Interior, Fred Russell.1
+            
+            
+            <lb/>In this conversation, Nixon was clearly aware of the taping system and suggested using
+            the tapes to Haldeman, <quote>“since you’ve got the recording,”</quote> regarding instructions on how
+            to treat Russell. Haldeman was clearly enthusiastic (<quote>“Let’s use the recording.”</quote>) but
+            suggested the use of tapes <quote>“on the basis of your notes…we can go back and use the
+            recordings…”</quote> Nixon again stressed his desire to avoid transcription from the tapes: <quote>“I
+            don’t want you to transcribe those unless it’s important. See?”</quote></note>
+           <incident><desc> [Previous unrelated conversation omitted]</desc></incident>
+            
+            
+            <u who= "#nixon">Nixon Bob, you know the problem. I—It’s awfully hard, but I just told Henry this. He’s
+         [Kissinger’s] gullible as hell. He really is.</u>
+            <u>Haldeman: Yeah. He’s—He’s…</u>
+           <u> Nixon: Learning.</u>
+          <u>  Haldeman: He’s bright enough though that he’s, you know, he’s worried.</u>
+          <u>  Nixon: Well, I need to worry about him. The problem is really that it’s hard to find a
+            man, Bob, is, you know, in the foreign policy area who is—God, how the hell we run the
+            government I don’t know, but we do find enough. We do eventually, but if they can find
+            a guy that’s on our side that is bright, bright enough.
+            Haldeman: We’ve found a lot.</u>
+      <u>      Nixon: They’re not so—They’re not all unhappy left-wingers to be bright. Also, you
+            can’t then operate our people. I told [Press Secretary Ronald] Ziegler to cover that whole
+            thing with Fred Russell. Goddamn that burned my ass!</u>
+          <u>  Haldeman: Yeah.</u>
+            
+        <incident><desc>    1</desc></incident>
+           <note> See Oval Office Conversation 452-3 in which Nixon and Haldeman discuss a news story that Fred J.
+            Russell was dismissed from his post in the Interior Department and that presidential aide John Ehrlichman
+            actually fired Russell. Nixon argued that this was not fair treatment of Russell, who later became the U.S.
+            Ambassador to Denmark. According to a Washington Post article, “Mr. Nixon formally acknowledged
+            yesterday the resignation of J. Fred Russell as Under Secretary of the Interior.” See: “Nixon, Aides Meet on
+            Foreign Policy,” The Washington Post (Feb 28, 1971) pg. 2. </note>
+      </body>
+  </text>
+</TEI>
