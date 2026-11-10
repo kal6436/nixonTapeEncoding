@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Conversation No. 460-027</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><!--Pdf document on nixontapes.org? (im not sure if this is right)--></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><title>Conversation No. 460-027</title>
+            Date:<date> February 26, 1971</date>
+            Time: <time>5:47 - 6:08 p.m.</time>
+            Location: Oval Office
+            
+            Participants: 
+      
+      <listPerson> 
+      <person xml:id = "nixon">
+           <occupation>President</occupation>
+           <persName>Richard Nixon </persName>
+      </person>
+        
+       <person xml:id = "kissinger">
+            <persName>Henry Kissinger</persName>
+           <occupation>Diplomat</occupation>
+       </person>
+      </listPerson>
+         </p> 
+          <div>  <p>The earliest mention of Allende on the taping system concerned the possibility of having 
+            the U.S.S. Enterprise make a port of call at <placeName>Valparaiso, Chile</placeName>.1 In spite of the fact that Allende 
+            had been in office for less than four months, relations between the Chilean and U.S. government 
+            were already abysmal. Nixon curtly dismissed Allende’s offer to show U.S. sailors “authentic 
+            democracy” as being used for the “worst, damn propaganda purposes.”
+            […]
+            460-027_Clip1
+            (1m, 1:04)</p></div>
+
+           <div>  <u>Kissinger: I have two item—three items, and one other thing. One is the [U.S.S.] 
+            Enterprise—
+            Nixon: Oh, yeah. 
+            Kissinger: [Secretary of State William] Rogers—Allende went on national television yesterday 
+            saying—
+            Nixon: It was nonsense.
+            Kissinger: —it was coming—
+            Nixon: That son-of-a-bitch—
+            Kissinger: —and that he wanted to show the American sailors “authentic democracy.” Rogers 
+            still feels that we ought to cancel it. And, we’ll take a little flak. 
+            Nixon: Oh! He’s already been on television? “Authentic democracy?” See, it shows that he’s 
+            using it for the worst damn propaganda purposes. 
+            Kissinger: And he had, uh—Laird has already announced, today, that it would be operationally 
+            difficult. And, Laird said he’ll take the heat for it this time—
+            Nixon: [I’d rather Laird take the heat]. Laird can say, “[Unclear]. We have to delay it for 
+            awhile.” Why don’t we put it that way? I wouldn’t cancel it.
+            Kissinger: No, we’ll just say we’ll do it some other time—</u>
+            </div>
+            
+     <!--<unclear><!-\- 1 Benjamin Wells, “U.S. Declines Chile’s Invitation for Visit by Warship,” New York Times (February 28, 1971), 3.-\-></unclear>
+     NEED TO FIND ELEMENT-->
+   
+         
+           <div><u> Nixon: Yeah. Yeah. “We will, but we—We’d be glad to do it, but we, from an operational 
+            standpoint, we’ve got some—we’ve got the various operations.” [It’s a] very good point, that we 
+            can’t do it, do it at this time. 
+            […]         </u></div>
+      </body>
+  </text>
+</TEI>

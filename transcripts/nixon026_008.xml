@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Conversation Number 026_008</title>
+                <editor ref="#jlb">Jennifer Baxter</editor>
+                
+                
+            </titleStmt>
+            
+            <publicationStmt>
+                <p>Describe where these came from. <ref target="https://URL/HERE/">ORIGINAL SOURCE</ref></p>
+                
+            </publicationStmt>
+            <sourceDesc>
+                <!-- FIND A WAY TO ADD A URL DIRECT TO PDF SOURCE FROM THE ORIGINAL HERE> -->
+                <recordingStmt><recording> <date when="1972-06-26">Date: June,26,1972</date></recording></recordingStmt>  
+                
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-11-05" resp="#jlb">coding of this doc</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <text>    
+        <body>
+            <note type="head" resp="#OE">
+                <label type="convo">Conversation No. 026_008</label>
+                <time>11:45 am - 11:47 am</time>
+                <location><placeName>White House Telephone</placeName> </location>
+                <label type="participants">Participants: Richard M. Nixon, George P. Shiltz</label>
+                
+                <p>A special thanks to <persName>Ken Hughes</persName> and <orgName>the Miller Center of Public Affairs</orgName> for alerting us to
+                    this conversation and providing a draft transcript. Transcript has been edited to remove stuttering and improve readability]
+                    [Previous unrelated conversation omitted]</p>
+                
+            </note>
+            <note resp="#OE" place="top"> 
+                George P. Shultz became the secretary of the treasury after John Connally stepped down in May 
+                1972 to head the “Democrats for Nixon” campaign. In this phone conversation, Nixon brought 
+                his new treasury secretary, Shultz, up to speed that his agency should “oppose loans to any 
+                country that expropriates” and “any country that has kicked us around.” Shultz and Nixon 
+                lamented the State Department’s noncompliance or “claws” against Nixon’s preferred policy of 
+                dealing toughly with countries that did not fall into line with U.S. interests.
+                026-008.mp3
+                (1m; 1:19)
+            </note> 
+            
+            
+                <u who="#shultz"> Good morning, Mr. President.</u>
+            <u who = "#nixon"> <vocal>Just a—I’ll just take a second,<persName ref = "#shultz"> George</persName>, ‘cause <persName ref = "#flanigan">Pete Flanigan</persName> can fill you in. I wanted to
+                tell you that I’ve asked him to talk to you about this situation with regard to the votes in the 
+                World Bank, where McNamara is, you know, is taking the position of making loans to Chile, to 
+                Iraq, to India after they’ve just kicked us around—she<persName ref = "#indira"> [Indira Gandhi]</persName> has—and so forth and so 
+                on. Now, I’m totally against all of those, and I just wanted you to know that I expect the Treasury 
+                Department—whoever you have—to take that line unless I give other instructions. In other 
+                words, the United States is to oppose loans to any country that expropriates. It is to oppose loans 
+                to any country that has kicked us around, as Mrs. Gandhi has. Is that clear?</vocal></u>
+                <u who="#shultz">  I’m just delighted to have that instruction—</u>
+                <u who = "#nixon">  Yeah. Yeah. </u>
+                <u who="#shultz">: That is the position we have been on—</u>
+                <u who = "#nixon">  Well I thought so—</u>
+                <u who="#shultz">—and the State Department has been clawing at us—</u>
+                <u who = "#nixon">  Yeah.</u>
+                <u who="#shultz"> —and we just say, <q>No, we don’t see any evidence here—</q></u>
+                <u who = "#nixon">  All right, when the State Department claws, good. I know that that’s—I know<persName> John 
+                [Connally]</persName> felt that way, but I know—and I know that you do, [of course, but] I just wanted you 
+                to know so that—I told <persName>John</persName> that at one time, but I’m—now, I’m telling you, and <persName>Pete</persName> has also 
+                talked about the organization of the thing, and he will talk to you about that—about us setting up 
+                an executive committee. <persName>Pete</persName> and <persName>Henry</persName> and I are talking here now, but <persName>Pete</persName> will fill you in on 
+                the whole thing, and you work it out. Ok?</u>
+                <u who="#shultz"> Ok, sir. </u>
+                <u who = "#nixon"> : All right. Fine.</u>
+                <u who="#shultz"> Yup.</u>
+                <u who = "#nixon">  All right. </u>
+              <note resp="#OE">  [End of conversation.] </note>
+        
+
+        </body>
+    </text>
+</TEI>
+

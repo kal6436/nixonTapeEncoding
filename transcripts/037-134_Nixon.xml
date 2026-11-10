@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Conversation Number 037-134</title>
+            <editor ref="#jlb">Jennifer Baxter</editor>
+         </titleStmt>
+         
+         <publicationStmt>
+            <p>PDF transcript collected from nixontapes.org <ref
+                  target="https://www.nixontapes.org/"/></p>
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording>
+                  <date when="1973-03-16">Date: March 16, 1973</date>
+               </recording>
+            </recordingStmt>
+            <bibl>
+               <orig><ref target="https://nixontapes.org/watergate/037-134.pdf"/>ORIGINAL
+                  SOURCE FILE</orig>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-11-09" resp="#jlb">Encoded file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <note resp="#OE" place="top"><label>  Conversation No. 037-134 </label>
+            <date when="1973-03-16">March 23, 1972</date>
+            <time>  8:14 pm - 8:23 pm .</time>
+            <location>
+               <placeName>White House Telephone</placeName>
+            </location>
+            <label type="participants"> Richard M. Nixon, John W. Dean</label>
+          
+     
+           <note resp= "#OE"> [Editor’s note: the blue text below denotes overlap with Stanley Kutler’s Abuse of Power: The 
+            New Nixon Tapes (New York: The Free Press, 1997). Kutler took the blue text below and 
+            combined it with the blue material noted in the transcript for conversation 881-003
+            , creating a fictitious conversation that appears in his book on pages 230-232.] </note>
+        
+            <u who = "nixon">: Hello? </u>
+           <u who = "dean">  Yes, sir. </u>
+            <u who = "nixon">: Any report on the meeting with <persName>[Richard] Kleindienst</persName>? </u>
+            <u who = "dean">: There was a report, a good report, a very successful meeting. He laid it out— </u>
+            <u who = "nixon"> Who’d he meet with? </u>
+            <u who = "dean">: —exactly what he would do, and he said they didn’t balk an inch. </u>
+            <u who = "nixon">: Who’d he talk to? <persName>Ervin </persName>and, uh—? </u>
+            <u who = "dean">: <persName>Ervin</persName>, and <persName>Baker</persName>, and both counsel.1 </u>
+            <u who = "nixon"> Um-hmm. Um-hmm. </u>
+            <u who = "dean">: And they, they bought it. That, one, there would be a summary report, a synopsis report, 
+            which would be issued to them only; not for any other members of their committee. </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean"> It would be for investigative purposes only; it could not be put in the record; it could not 
+            be displayed publicly any way. And, if they had any questions about that, the synopsis report, 
+            then they could come down to the Bureau—those four—and look at the raw file they wanted to 
+            look at, if they contested something that was in the synopsis. </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: That was it. Zero. </u>
+            <u who = "nixon"> In other words, this is a report that would be given by <persName>[L. Patrick] Gray</persName>? </u>
+            <u who = "dean">: By <persName>Gray</persName>. Right. </u>
+            <u who = "nixon">: Um-hmm. </u>
+            <u who = "dean"> They put out—In fact, there’s a press release that<persName> Ervin</persName> put out that said they had worked 
+            out a satisfactory arrangement with the Department of Justice to receive the necessary 
+            information from the FBI in a way that would protect any innocent persons from damage. </u>
+            <u who = "nixon"> Um-hmm. Hmm— </u>
+            <u who = "dean">: And that’s the—That went out this afternoon, and— </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean"> —we got a question—<persName>Ziegler</persName> got a question, the press office, “Was that—was the 
+            arrangement satisfactory with us?” “Absolutely.” </u>
+            <u who = "nixon">: Um-hmm. </u>
+            <u who = "dean">: So that—Again, that’s the spirit of cooperation of turning over information, and— </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: —no problem at all. </u>
+            <u who = "nixon"> Well, you should go forward, and working with <persName>Dick Moore</persName> and others, with regard to 
+            the matter of getting sort of a general statement that might be prepared—I mean to be given to 
+            me after the court sentences. You see? </u>
+            <u who = "dean">: Right, I— </u>
+            <u who = "nixon"> I don’t know whether we will want to use it or not, but we, in order to know, we’ve got 
+            to see what it could be. You see? </u>
+            <u who = "dean">: I just learned late this afternoon that Sirica is going to, definitely, sentence on Fri—a 
+            week from today. </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: He plans to give a speech from the bench at that time— </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: That the government is recommending no specific term in years for any of the defendants. 
+            Rather, prison sentences for all of them, but not a specified term of years. But the whole thing is 
+            up to him— </u>
+            <u who = "nixon">: Up to the jury? Then, how—who determines the term of years? </u>
+            <u who = "dean">: Sirica himself will. </u>
+            <u who = "nixon"> Oh. Um-hmm. Then, when will he announce that? </u>
+            <u who = "dean">: That’ll be on Friday. At least for the five that pleaded. They may not sentence the two that 
+            are on appeal. </u>
+            <u who = "nixon">: Um-hmm. And, so he’ll announce the sentences a week from Friday? </u>
+            <u who = "dean"> That’s correct. A week from this—today. </u>
+            <u who = "nixon"> A week from today. Um-hmm. </u>
+            <u who = "dean"> I had a—I had a long conversation with <persName>Dick Moore</persName> just this evening. I just arrived home 
+            and<persName> Dick </persName>and I really have been talking all this time about— </u>
+            <u who = "nixon">: Sure. </u>
+            <u who = "dean">: —this whole thing, and there is a degree of impossibility in writing a sort of let’s-hang-it
+            all-out report without creating problems that would open up a new grand jury— </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">—without creating problems that would cause difficulty for some who’ve already 
+            testified. </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: I’ve caveated some of these to <persName>Dick</persName>. <persName>Dick</persName> doesn’t have—possess all the knowledge I 
+            have. </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: Particularly this [fellow assigned with Dick.] </u>
+            <u who = "nixon"> Yeah. [laughs] </u>
+            <u who = "dean">: And, in fact, it might—I told him, I said, “It might be to your attorneys, <persName>Dick </persName>[laughs] to 
+            write from your place –” </u>
+            <u who = "nixon"> Yeah. Yeah. </u>
+            <u who = "dean">: And, so we’ve planned to— </u>
+            <u who = "nixon">And then you could look it over. [laughs] </u>
+            <u who = "dean">: Right. We plan to meet tomorrow and see what— </u>
+            <u who = "nixon"> Right. </u>
+            <u who = "dean">—we can [frank] out, and— </u>
+            <u who = "nixon"> Well, that’s something is worth, perhaps, doing in terms of the of, of—well, frankly, 
+            what is, what could be helpful if it could be worked out, or just something that where, in the most 
+            general terms, the—is virtually saying what I might even say in answer to a press conference 
+            question, but in more general terms, that an investigation has been conducted, and we find this, 
+            and that, and the other thing. And whack. Just like that. You see what I mean? </u>
+            <u who = "dean">: Um-hmm. </u>
+            <u who = "nixon"> Rather than going into the specifics of who did what to whom. You see what I mean? </u>
+            <u who = "dean"> I do. </u>
+            <u who = "nixon"> So that—so that people could say, “Well—” </u>
+            <u who = "dean"> Not a total stonewall. </u>
+            <u who = "nixon">: Oh, no, no. And not a total—and not supposed to be a total answer. </u>
+            <u who = "dean">: Right. </u>
+            <u who = "nixon"> But, simply saying, “Well, the President has finally said, ‘Now, that it’s over this is it.’ 
+            And the—after this is over we can now say that this person—these people were not involved, 
+            and et cetera; these were, and—And, I don’t know. But at least think, think in those terms to see 
+            if something could be worked out. In very general terms, I realize the problems of getting too 
+            specific, because then—then you do open up the possibility of, oh, ‘Why didn't you say that? 
+            Why didn't you say that?’ But you just put it [a report] in very general terms, you see? </u>
+            <u who = "dean">Um-hmm. </u>
+            <u who = "nixon">: I don’t know. Do you think that's possible? </u>
+            <u who = "dean"> It’s going to be tough, but I think—I think it’s a good exercise and a drill that is 
+            absolutely essential we do, uh, to go through— </u>
+            <u who = "nixon"> Yeah, that’s the point. The exercise is important. </u>
+            <u who = "dean">: It, it sharpens thinking and it, as I, as— </u>
+            <u who = "nixon"> Find out what our vulnerabilities are and where we are and so forth and so on. </u>
+               <u who = "dean">: Right. I would there’s [chuckles]—maybe there will be some time when, when I should 
+            possibly report a little fuller than1 really have, so you really can appreciate in full some of the 
+            vulnerable points and where they, they lead to. </u>
+            <u who = "nixon"> That’s right. </u>
+            <u who = "dean"> I don’t think that should be a written document right now. </u>
+            <u who = "nixon"> Oh, by no means. No, by—I don’t want any damn written document about any of that. </u>
+            <u who = "dean"> No. </u>
+            <u who = "nixon"> I’m just speaking of a document that is put out. </u>
+            <u who = "dean"> A public document. </u>
+            <u who = "nixon"> Yeah. </u>
+            <u who = "dean"> Right. </u>
+             <u who = "nixon"> Which you, as sort of a report, perhaps, which we could then deliver to Ervin. You 
+                know? </u>
+            <u who = "dean">: That might—It’s gonna be tough, but I’ll tell you, it’s certainly worth the effort— </u>
+             <u who = "nixon">Yeah. Just sort of a general thing, and very general, very general. You know? 
+            Without—by all means, laying off of—don’t get into the, ‘Well, we investigated this. We 
+            investigated that. We saw this. We deny this. We support this. And so forth.’ Lay off of all that. I 
+            have in mind a sort of—Basically, so that it can be said that something was presented that I have 
+            seen, or that—You know what I mean? So that they—So that my reiterated statements from time 
+            to time, ‘That, well, no one on the White House staff is involved,’ have some basis, you see. </u>
+            <u who = "dean"> A lot of the—a lot of my conclusions were based on the fact that there was not a scintilla 
+            of evidence in the investigation that led anywhere to the White House. </u>
+            <u who = "nixon">: Um-hmm. </u>
+            <u who = "dean"> There’s nothing in the FBI file that indicates anybody in the White House was involved. </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: There’s nothing in what was presented before the Grand Jury indicating— </u>
+            <u who = "nixon"> Um-hmm. </u>
+            <u who = "dean">: —White House involvement. </u>
+            <u who = "nixon">: Well, just saying some of those things could be helpful. </u>
+            <u who = "dean"> That’s right. </u>
+            <u who = "nixon">: See? It could be helpful— </u>
+            <u who = "dean"> [Unclear]— </u>
+            <u who = "nixon">: And then we just put it out and then let, let the Committee try to prove otherwise. </u>
+                  <u who = "dean">: And, I understand that they will not get the Grand Jury minutes, which is good because 
+            the Grand Jury is more thorough than the FBI. </u>
+            <u who = "nixon"> Uh-huh. </u>
+                  <u who = "dean">: The Committee’s starting ten paces behind, and Ervin does not, I’m told, have a total 
+            disposition for what he’s doing. He just doesn’t relish it. He wants to find out things. He’s— </u>
+            <u who = "nixon"> Why not? </u>
+                  <u who = "dean">: He’s more excited about the confrontation on executive privilege, I think, than he is about 
+            what else he might find. </u>
+            <u who = "nixon">: He would welcome that, wouldn’t he? </u>
+                  <u who = "dean">: Oh, he’d love that. </u>
+            <u who = "nixon"> Well, so would we. </u>
+                  <u who = "dean">: Um-hmm. </u>
+            <u who = "nixon"> I mean, let’s have it. Particularly if it’s on you—Oh, no, he won’t have it on you. He’ll— </u>
+                  <u who = "dean"> No, I don’t think he’ll [chuckles] bite for that— </u>
+            <u who = "nixon">On Chapin, huh? </u>
+                  <u who = "dean">: Chapin or Colson. </u>
+            <u who = "nixon"> Uh-huh. Hmm. </u>
+                  <u who = "dean">: I, I think that the other part of the report that we can probably put out with even greater 
+            detail than, say, Watergate is Segretti. And that— </u>
+            <u who = "nixon"> That I would like. </u>
+                  <u who = "dean"> And that—You see, that would put us in a very forthcoming posture. </u>
+            <u who = "nixon">: Uh-huh. </u>
+                  <u who = "dean">Here’s— </u>
+            <u who = "nixon"> We could point out that the one case has now been determined by the courts, and that we 
+            have nothing to indicate that the White House was involved. Now, second, with regard to 
+            Segretti, let’s lay all this—let’s lay it all out. Here it is. </u>
+            <u who = "dean"> Now, sure it’s a little embarrassing— </u>
+            <u who = "nixon">: The problem there— </u>
+            <u who = "dean">: [Unclear] nothing, uh— </u>
+            <u who = "nixon">: Well, it’s less embarrassing than what’s been charged, and the innuendo. </u>
+            <u who = "dean"> That’s right. </u>
+            <u who = "nixon"> Of course, I realize the major problem there is the financing, but even that. </u>
+            <u who = "dean"> That—that’s going to have to be answered well before Ervin— </u>
+            <u who = "nixon">: That’s gonna come out. That’s right, so you— </u>
+            <u who = "dean">—so we might as well leave it out— </u>
+            <u who = "nixon">: Yeah. That’s right. So, you can think about it. Ok? </u>
+            <u who = "dean">All right, sir. Well— </u>
+            <u who = "nixon">: Fine. </u>
+            <u who = "dean"> We will win. [laughs] </u>
+            [End audio]
+      </body>
+   </text>
+</TEI>

@@ -132,6 +132,26 @@
                     <occupation></occupation>
                     <persName>Howard Hunt</persName>
                 </person>
+                <person xml:id="shultz">
+                    <occupation>secretary of the treasury</occupation>
+                    <persName>George P. Shultz</persName>
+                </person>
+                <person xml:id="john">
+                    <occupation></occupation>
+                    <persName>John Connally</persName>
+                </person>
+                <person xml:id="flanigan">
+                    <occupation></occupation>
+                    <persName>Pete Flanigan</persName>
+                </person>
+                <person xml:id="henry">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="indira">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
             </listPerson>
             <listOrg>
                 <org>
