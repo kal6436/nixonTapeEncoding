@@ -5,8 +5,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>  <!--rough-->
       <fileDesc>
-         
-         wqw
+        <titleStmt>
+          <title>450-10</title>
+          <editor ref ="#sjb">Story Buchanan</editor>
+        </titleStmt> 
+        
          <publicationStmt>
            <p>PDF transcript collected from nixontapes.org PDF transcript collected from nixontapes.org <ref target="https://www.nixontapes.org/index.html">ORIGINAL
                  SOURCE</ref></p> <!-- website url -->
@@ -23,7 +26,7 @@
         
       </fileDesc>
     <revisionDesc>
-      <change when="2026-11-06" resp="#spb">Revised files to match template.</change>
+      <change when="2026-11-12" resp="#spb">Updated header.</change>
       
     </revisionDesc>
    
@@ -45,7 +48,7 @@
            
          
     
-            <note resp="#OE" place="top">  In one of the first recordings made in the <placeName>Oval Office</placeName> of a conversation between
+            <note resp="#OE" place="top">  In one of the first recordings made in the <location><placeName>Oval Office</placeName></location> of a conversation between
               President Nixon, Assistant to the President  <persName ref="#butterfield"
                 >Alexander Butterfield</persName>, and Chief of Staff
             <persName ref = "#haldeman">H.R. Haldeman</persName>, Nixon notes that the purpose of the newly installed taping system was
@@ -110,8 +113,7 @@
         
         <u who ="#haldman">Or “my notes” or—</u>
         
-        <u who="#nixon"><gap
-            reason="unclear"/> For example, you've got nothing to use from this today. Just forget it.
+        <u who="#nixon"><gap reason="unclear"/> For example, you've got nothing to use from this today. Just forget it.
             File it. Everything today will be filed.</u>
         
         <u who ="#haldman"> Yes.</u>
@@ -125,7 +127,7 @@
         
         <u who ="#haldman"> Well—</u>
         
-        <u who = "#butterfield"><incident><desc> [Unclear]</desc></incident> someone should cover it.</u>
+        <u who = "#butterfield"><gap reason="unclear"/> someone should cover it.</u>
            <u> <incident><desc>[Unclear-overlapping voices]</desc></incident></u>
         
         <u who ="#haldman"> I'd still use that. We've got—</u>
