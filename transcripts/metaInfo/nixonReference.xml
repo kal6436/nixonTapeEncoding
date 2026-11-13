@@ -46,6 +46,10 @@
                     <note resp="ebb">The original editors of the Nixon Transcripts whoever they are.
                         Does this belong in the listOrg?</note>
                 </person>
+                <org xml:id="IIS">
+                    <orgName>Impeachment 
+                        Inquiry Staff</orgName>
+                </org>
 
             </listPerson>
 
