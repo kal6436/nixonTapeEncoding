@@ -136,6 +136,9 @@
                     <occupation></occupation>
                     <persName>Howard Hunt</persName>
                 </person>
+                <person xml:id="waiter">
+                    <occupation>Waiter</occupation>
+                </person>
             </listPerson>
             <listOrg>
                 <org>
