@@ -6,7 +6,7 @@
     <pattern id="check-ids-and-refs">  
       <!-- 2026-11-04 ebb: This is for checking that ref attributes are correctly resolving to the nixonReference.xml file. -->
         
-        <let name="nixonRefIds" value="doc('metaInfo/nixonReference.xml')//@xml:id"/>
+        <let name="nixonRefIds" value="doc('../metaInfo/nixonReference.xml')//@xml:id"/>
 
         <rule context="@who | @ref | @resp">
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>

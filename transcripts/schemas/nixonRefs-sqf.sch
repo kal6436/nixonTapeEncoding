@@ -11,7 +11,7 @@
              can pick a correct @xml:id from a menu. (Right-click on a value yielding an error, and look for "Quick Fix" -->
         
         <let name="nixonRefIds"
-            value="doc('metaInfo/nixonReference.xml')//@xml:id => distinct-values()"/>
+            value="doc('../metaInfo/nixonReference.xml')//@xml:id => distinct-values()"/>
 
         <rule context="@who | @ref | @resp" role="info">
             <!-- Keep the raw tokens (with their #) so we know exactly which piece to replace. -->
