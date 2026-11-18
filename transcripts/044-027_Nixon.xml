@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Conversation Number 044-027</title>
+                <editor ref="#jlb">Jenn Baxter</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p>PDF transcript collected from nixontapes.org <ref target="https://www.nixontapes.org/"></ref></p>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt><recording> <date when="1973-03-27">Date: March 27, 1973</date></recording></recordingStmt>  
+                <bibl>
+                    <orig><ref target="https://URL/HERE/"></ref>ORIGINAL SOURCE FILE</orig>
+                    <!-- kal: Use note for any referencing of Ear by OE
+              <note resp="#OE">1st Ear: RAM, <date when="2006-12-01">December 1,
+                 2006</date></note>
+             <note resp="#OE">2nd Ear: RAM, <date when="2006-12-04">December 4, 2006</date></note>
+             <note>3rd Ear: RAM, <date when="2007-06-07">June 7, 2007</date></note>--></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-11-09" resp="#jlb">Encoded file content</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <text>    
+        <body>
+            <note type="head" resp="OE">
+                
+                <label type="convo">Conversation No. 044-027</label>
+                
+                <time> <unknown>4:20pm - 4:57pm</unknown></time>
+                <location><placeName>White House Telephone </placeName> </location>
+                <label type="participants">H.R. Haldeman, John W. Dean, III </label>
+            
+                <note resp="#OE" place="top">[Begin Audio]</note>
+         <u>   Haldeman: <perName>John? </perName></u>
+          <u>  Dean: Yes, <persName>Bob.</persName> </u>
+            <u>Haldeman: What is our status on getting a report from grand jury activity, now? </u>
+      <u>      Dean: I was just raising that with <persName>Dick Moore</persName>—to call—ask him if he would call <persName>Henry 
+            Peterson. </persName></u>
+          <u>  Haldeman: Ok. </u>
+          <u>  Dean: I used to do that, but I don’t think I ought to do it right now.  </u>
+         <u>   Haldeman: All right, will Peterson talk tomorrow? </u>
+           <u> Dean: I’m sure he will.  </u>
+         <u>   Haldeman: Ok. We’re trying to reach Kleindeinst now. He’s gone to Arizona, and we’re ordering 
+            him back. </u>
+            <u>Dean: Good.  </u>
+        <u>    Haldeman: Ehrlichman is. But we ought to know what happened today. We have to find out what 
+            Hunt did.  </u>
+            <u>Dean: Well, I would—I’ll tell you what I was told. After we talked the last time, it was planned 
+            [that] Hunt was going to give a written statement, answer some questions they’d ask him, and 
+            take the Fifth [Amendment] on everything else.  </u>
+            <u>Haldeman: Well, what is the written statement regarding? </u>
+           <u> Dean: Nothing particularly sensitive.  </u>
+          <u>  Haldeman: [Unclear] taking the Firth on everything else, huh? </u>
+            <u>Dean: Yeah.  </u>
+          <u>  Haldeman: Ok. </u>
+            <u>Dean: Now, it’s going to be hard to get a report out of counsel as to what occurred down there 
+            until 5 or 6 o’clock, or so. ‘Cause they’ll have been in court—they had a 2 o’clock meeting in 
+            court—counsel were to be present. </u>
+           <u> Haldeman: Oh. So, the grand jury didn’t meet this afternoon? </u>
+          <u>  Dean: Hmm—Yes, they did, but it after that meeting. All counsel were present in the courtroom, 
+            and then [unclear] Hunt was to go before the grand jury after that, that situation.  </u>
+           <u> Haldeman: Um-hmm. So, it’s going to be going on now? </u>
+            <u>Dean: [Unclear]. </u>
+            <u>Haldeman: Probably. Ok. </u>
+            <u>Dean: We have a terrible breakdown in communication with both the committee, and now, the 
+            grand jury. I used to be able to stay plugged-in with the grand jury, but I’m too hot to do it now.  </u>
+         <u>   Haldeman: Um-hmm. </u>
+          <u>  Dean: I should call Dick right away and see if he’s gotten a report, or— </u>
+        <u>    Haldeman: Could Fielding step in and do that? The point being [unclear] takes fast enough to 
+            handle your communication stuff for you.  </u>
+           <u> Dean: I agree. Let me talk to Fred. Press Henry to know his position—relationship with him. 
+            The—Here’s [what] the other thing is: He just probably won’t know, right know, what’s 
+            happened. [Unclear] don’t report to him hour by hour. He is—has not injected himself into it, 
+            so— </u>
+           <u> Haldeman: Um-hmm. </u>
+           <u> Dean: —probably it won’t be until this—and you wouldn’t get a report from him anyway.  </u>
+        <u>    Haldeman: Ok. He doesn’t expect anything, anyhow, though. </u>
+<u>            Dean: No. Let me tell you another development, though. </u>
+           <u> Haldeman: Ok? </u>
+            <u>Dean: F. Lee Bailey called Mitchell. He called him initially to raise that thing that he, 
+            apparently—you know, that Mitchell raised down here.  </u>
+           <u> Haldeman: [Unclear]. </u>
+         <u>   Dean: [Unclear]. He called on this thing that—you know, he’s quiet regarding the gold reserve 
+            thing, and all— </u>
+          <u>  Haldeman: Oh, yeah. </u>
+           <u> Dean: And then they went on from there and revealed this: That Fensterwald has called F. Lee or 
+            Alch—one of the two, I’m not clear on which it was—to ask that they be present in the court 
+            when McCord appears on Thursday or Friday. Ask that [unclear] will be present. And— </u>
+           <u> Haldeman: And to request that Fensterwald be present. </u>
+          <u>  Dean: Yeah, along—and join as co-counsel with Bailey’s firm. And, in the course of the 
+            conversation, Fensterwald said to Bailey, “We, we don’t give a damn about McCord. We’re after 
+            Richard Nixon.” </u>
+            <u>Haldeman: Really? </u>
+            <u>Dean: Um-hmm. Now, Moore, that’s what he’s working on right now. He’s getting some of the 
+            facts back from, from—some additional information back from Mitchell, and maybe Mitchell 
+            have F. Lee Bailey step forward. We should have a conference on this.  </u>
+           <u> Haldeman: Yeah. </u>
+            <u>Dean: Fensterwald up his [McCord’s bond] for one thing.  </u>
+           <u> Haldeman: Yeah. </u>
+            <u>Dean: And the more I think about Fensterwald, the more I think that could be a [unclear] link to 
+            Kennedy. [Unclear] that was raised: Fensterwald served as the chief counsel to the 
+            Administrative Practice and Procedures sub-committee, which was run by Ed Long, as chairman. 
+            Kennedy was the second-ranking member of that committee, and then became chairman. I’ve—
+            It’s possible that Fensterwald was even on awhile after Kennedy came on. Obviously, they have 
+            a relationship.  </u>
+           <u> Haldeman: Um-hmm. </u>
+        <u>    Dean: It’s very, very possible.  </u>
+           <u> Haldeman: Ok. </u>
+           <u> Dean: Plus the fact that Fensterwald suddenly put up $40,000 for McCord.  </u>
+          <u>  Haldeman: Ok. </u>
+      <u>      Dean: Ok? </u>
+         <u>   Haldeman: Yup. </u>
+           <u> Dean: Good. </u>
+            <u>Haldeman: Thanks.  </u>
+                <note resp="#OE" place="bottom">[End Audio]</note>
+           
+            
+            
+        </body>
+    </text>
+</TEI>
